@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASC 2025 Minisymposium: Challenges in Systems Design for Omics</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Header Section -->
+    <header class="relative h-96">
+        <img src="brugg-windisch.jpg" alt="FHNW Campus Brugg-Windisch" class="w-full h-full object-cover" loading="lazy">
+        <div class="absolute inset-0 flex items-center justify-center">
+            <div class="text-center text-white bg-black bg-opacity-50 p-6 rounded-lg">
+                <h1 class="text-4xl font-bold mb-4">Challenges in Systems Design for Omics</h1>
+                <p class="text-xl">PASC 2025 Minisymposium | June 16-18, 2025</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="sticky top-0 bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex space-x-8 overflow-x-auto">
+                <a href="#about" class="py-4 text-gray-700 hover:text-blue-600">About</a>
+                <a href="#organizers" class="py-4 text-gray-700 hover:text-blue-600">Organizers</a>
+                <a href="#speakers" class="py-4 text-gray-700 hover:text-blue-600">Speakers</a>
+                <a href="#register" class="py-4 text-gray-700 hover:text-blue-600">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-8 space-y-16">
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="text-3xl font-bold mb-6">About the Symposium</h2>
+            <p>This minisymposium aims to address the critical challenges faced in the design and implementation of systems for omics research. As the field of omics, encompassing various disciplines such as genomics, proteomics, and metabolomics, continues to expand rapidly, there is an increasing demand for hardware-software co-design and robust computational systems that can handle large datasets, provide accurate analyses, and facilitate meaningful biological insights.
+            The enormous data growth continuously shifts the life sciences from model-driven towards data-driven science driving the adoption of deep neural network models, massively parallel accelerators such as GPUs, and vendor-independent portability frameworks.</p> <p></p>            
+            <p>This session will bring together experts from both computational and life sciences to discuss innovative approaches to systems design that meet the unique needs of omics workloads. Topics will include advanced algorithms for data processing in genomics and proteomics, novel data reTitles that achieve superior memory efficiency, and hardware-software co-design to improve performance and energy efficiency. Mechanisms that enable real-time analysis of genomic data by analyzing electrical signals as raw sequencing data, lessons learned from GPU acceleration of computations in widely used bioinformatics tools, and an outlook on future software and hardware trends that will likely impact computational biology will be shared.</p>
+        </section>
+
+        <!-- Registration Section -->
+        <section id="register" class="bg-blue-50 p-8 rounded-lg text-center">
+            <h2 class="text-xl font-bold mb-4">Register for PASC 2025 Workshop</h2>
+            <a href="https://pasc25.pasc-conference.org/" target="_blank" 
+               class="bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300 inline-block">
+               Click Here to Register
+            </a>
+        </section>
+        
+        <!-- Organizers Section -->
+        <section id="organizers">
+            <h2 class="text-3xl font-bold mb-6">Symposium Chairs</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Organizer Cards -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="sitaraman.jpg" alt="Dr. Sriranjani Sitaraman" class="w-full h-48 object-cover mb-4 rounded-lg" loading="lazy">
+                    <h3><a href="https://rocm.blogs.amd.com/authors/gina-sitaraman.html" target="_blank">Dr. Sriranjani (Gina) Sitaraman</a></h3>
+                    <p>AMD, USA (Chair)</p>
+                </div>
+
+                <!-- Prof. Bertil Schmidt -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="schmidt.jpg" alt="Prof. Bertil Schmidt" class="w-full h-48 object-cover mb-4 rounded-lg" loading="lazy">
+                    <h3><a href="https://www.hpc.informatik.uni-mainz.de/people/bertil-schmidt/" target="_blank">Prof. Bertil Schmidt</a></h3>
+                    <p>JGU Mainz, Germany (Co-Chair)</p>
+                </div>
+
+                <!-- Dr. Gagandeep Singh -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="singh.jpg" alt="Dr. Gagandeep Singh" class="w-full h-48 object-cover mb-4 rounded-lg" loading="lazy">
+                    <h3><a href="https://www.linkedin.com/in/singagan" target="_blank">Dr. Gagandeep Singh</a></h3>
+                    <p>AMD, Switzerland (Co-Chair)</p>
+                </div>
+
+                <!-- Dr. Hari Sadasivan -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="sadasivan.jpg" alt="Dr. Hari Sadasivan" class="w-full h-48 object-cover mb-4 rounded-lg" loading="lazy">
+                    <h3><a href="https://harisadasivan.com/" target="_blank">Dr. Hari Sadasivan</a></h3>
+                    <p>University of Washington, USA (Co-Chair)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Speakers Section -->
+        <section id="speakers">
+            <h2 class="text-3xl font-bold mb-6">Featured Presenters</h2>
+            <!-- Speaker Cards -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Dr. Amy Jo Powell -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="powell.jpg" alt="Dr. Amy Jo Powell" class="w-full h-48 object-cover mb-4 rounded-lg" loading="lazy">
+                    <h3><a href="https://www.linkedin.com/in/amy-powell-25971533/" target="_blank">Dr. Amy Jo Powell</a></h3>
+                    <p>Sandia National Laboratories</p>
+                    <p>Title: Modernizing Biomedical Codes</p>
+                </div>
+
+                <!-- Prof. Yatish Turakhia -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="turakhia.jpg" alt="Prof. Yatish Turakhia" class="w-full h-48 object-cover mb-4 rounded-lg" loading="lazy">
+                    <h3><a href="https://turakhia.ucsd.edu/" target="_blank">Prof. Yatish Turakhia</a></h3>
+                    <p>UC San Diego</p>
+                    <p>Title: Building Ultra-Large Pangenomes</p>
+                </div>
+
+                <!-- Dr. Can Firtina -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="firtina.jpg" alt="Dr. Can Firtina" class="w-full h-48 object-cover mb-4 rounded-lg" loading="lazy">
+                    <h3><a href="https://canfirtina.com/" target="_blank">Dr. Can Firtina</a></h3>
+                    <p>ETH Zurich</p>
+                    <p>Title: Real-Time Genomic Analysis</p>
+                </div>
+
+                <!-- Prof. Bertil Schmidt -->
+                 <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="schmidt.jpg" alt="Prof. Bertil Schmidt" class="w-full h-48 object-cover mb-4 rounded-lg" loading="lazy">
+                    <h3><a href="https://www.hpc.informatik.uni-mainz.de/people/bertil-schmidt/" target="_blank">Prof. Bertil Schmidt</a></h3>
+                    <p>JGU Mainz, Germany</p>
+                    <p>Title: Accelerating Protein Homology Search</p>
+                </div>
+
+            <!-- Repeat for other speakers -->
+        </section>
+
+        <!-- Registration Section -->
+        <section id="register" class="bg-blue-50 p-8 rounded-lg text-center">
+            <h2 class="text-xl font-bold mb-4">Register for PASC 2025 Workshop</h2>
+            <a href="https://pasc25.pasc-conference.org/" target="_blank" 
+               class="bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300 inline-block">
+               Click Here to Register
+            </a>
+        </section>
+        <!-- Technical Program -->
+        <section id="program">
+            <h2 class="text-3xl font-bold mb-6">Technical Focus Areas</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">Core Challenges</h3>
+                    <ul class="space-y-2">
+                        <li>Managing exponential omics data growth</li>
+                        <li>Energy-efficient ML implementations</li>
+                        <li>Cross-platform portability frameworks</li>
+                        <li>Memory optimization strategies</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">Emerging Solutions</h3>
+                    <ul class="space-y-2">
+                        <li>Electrical signal analysis for real-time sequencing</li>
+                        <li>Distributed GPU acceleration techniques</li>
+                        <li>Application-specific hardware proxies</li>
+                        <li>Unified memory architectures</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diversity Section -->
+        <section id="diversity">
+            <div class="bg-blue-50 p-8 rounded-lg">
+                <h2 class="text-3xl font-bold mb-6">Diversity Commitment</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Representation Highlights</h3>
+                        <ul class="list-disc pl-6 space-y-2">
+                            <li>40% early-career researchers</li>
+                            <li>Gender-balanced organizing committee</li>
+                            <li>Multi-national participation (US, Germany, Switzerland)</li>
+                            <li>Academic + industry collaboration</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Inclusion Strategies</h3>
+                        <ul class="list-disc pl-6 space-y-2">                        
+                            <li>Accessibility-first design</li>
+                            <li>Hybrid participation options</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 text-center">
+        © 2025 PASC Workshop | Contact: gina.sitaraman@amd.com
+    </footer>
+</body>
+</html>
